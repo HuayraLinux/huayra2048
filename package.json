@@ -1,0 +1,19 @@
+{
+  "name": "huayra-2048",
+  "version": "0.1.4",
+  "description": "Juego 2048 para Huayra gnu/linux",
+  "main": "data/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "GPLv3",
+  "window": {
+  "title": "huayra-2048",
+  "toolbar": false,
+  "width": 900,
+  "height": 550,
+  "min_width": 900,
+  "min_height": 550
+}
+}
