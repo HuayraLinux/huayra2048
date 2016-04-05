@@ -2,6 +2,7 @@ huayra2048 (0.1.5) unstable; urgency=medium
 
   * Correcciones en el paquete
   * Corrijo el problema de WM_CLASS en nw.js (Cierra: #1)
+  * Agrego dependencia en `huayra-help` y `node-webkit`
   * Actualizo el codigo de `upstream`
 
 
