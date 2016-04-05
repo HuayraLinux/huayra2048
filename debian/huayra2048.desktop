@@ -1,11 +1,12 @@
+#!/usr/bin
 [Desktop Entry]
-Version=1.0
+Version=0.1.4
 Name=2048
 GenericName=2048
 Comment=Juego 2048
-Exec=xdg-open /usr/share/huayra2048/index.html
+Exec=huayra-2048
 Icon=huayra2048
 Terminal=false
 Type=Application
 Categories=Game;Huayra
-Keywords=Games;Juego;2048;
+Keywords=Games;Juego;2048

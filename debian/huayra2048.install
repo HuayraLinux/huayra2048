@@ -1,3 +1,5 @@
-data/* /usr/share/huayra2048
-debian/huayra2048.desktop /usr/share/applications
-debian/huayra2048.svg /usr/share/icons/hicolor/scalable/apps
+data/* usr/share/huayra2048/data
+debian/huayra2048.desktop usr/share/applications
+debian/huayra2048.svg usr/share/icons/hicolor/scalable/apps
+package.json usr/share/huayra2048
+huayra-2048 usr/bin/

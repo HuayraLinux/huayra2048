@@ -1,3 +1,28 @@
+huayra2048 (0.1.4) unstable; urgency=medium
+
+  * cambios menores 
+
+ -- Diego Accorinti <diegoacco@gmail.com>  Tue, 24 Nov 2015 12:13:34 -0300
+
+huayra2048 (0.1.3) unstable; urgency=medium
+
+  * correccion menu 
+
+ -- Diego Accorinti <diegoacco@gmail.com>  Mon, 23 Nov 2015 16:11:21 -0300
+
+huayra2048 (0.1.2) unstable; urgency=medium
+
+  * correccion lintian
+
+ -- Diego Accorinti <diegoacco@gmail.com>  Mon, 23 Nov 2015 14:36:57 -0300
+
+huayra2048 (0.1.1) unstable; urgency=medium
+
+  * Versión NodeJS para Huayra 4.0
+  * se rediseño la pantalla
+
+ -- Diego Accorinti <diegoacco@gmail.com>  Mon, 23 Nov 2015 12:03:32 -0300
+
 huayra2048 (0.1.0) unstable; urgency=low
 
   * Initial release

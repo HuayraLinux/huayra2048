@@ -4,12 +4,13 @@ Priority: extra
 Maintainer: Miguel Angel Garcia <miguel.garcia@gmail.com>
 Build-Depends: debhelper (>= 8.0.0)
 Standards-Version: 3.9.3
-Homepage: git://github.com/HuayraLinux/huayra2048.git
+Homepage: https://github.com/HuayraLinux/huayra2048
 Vcs-Git: git://github.com/HuayraLinux/huayra2048.git
 Vcs-Browser: https://github.com/HuayraLinux/huayra2048
 
 Package: huayra2048
 Architecture: all
 Depends: ${shlibs:Depends}, ${misc:Depends}, www-browser
-Description: El juego 2048
- Combiná potencias de 2 en el tablero hasta llegar a 2048.
+Description: El juego 2048.
+ Sumá potencias de 2 en el tablero hasta llegar a 2048.
+ Un juego de ingenio y matemática.
