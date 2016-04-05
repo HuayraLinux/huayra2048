@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>2048</title>
+  <title> Huayra 2048</title>
 
   <link href="style/main.css" rel="stylesheet" type="text/css">
   <link rel="shortcut icon" href="favicon.ico">
@@ -17,20 +17,24 @@
   <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0, maximum-scale=1, user-scalable=no, minimal-ui">
 </head>
 <body>
-  <div class="container">
-    <div class="heading">
-      <h1 class="title">2048</h1>
-      <div class="scores-container">
-        <div class="score-container">0</div>
-        <div class="best-container">0</div>
-      </div>
-    </div>
 
-    <div class="above-game">
-      <p class="game-intro">Junt&aacute; los n&uacute;meros hasta que obtengas <strong>2048 !</strong></p>
+
+
+<span class='ventana1' id='ventana1'> 
+
+<h1 class="title">2048</h1><br/><br/><br/>
+<div class="score-container">0</div>
+<div class="best-container">0</div>
+      <div class="game-intro">Junt&aacute; los n&uacute;meros hasta que obtengas <strong>2048</strong>.</div>
       </br>
-      <a class="restart-button">Juego Nuevo</a>
-    </div>
+      <a class="restart-button" onclick="show( 'instrucciones', 'sobre', 'ventana2')">Juego Nuevo</a>
+      <a class="restart-button" onclick="show( 'ventana2', 'sobre', 'instrucciones')">Instrucciones</a>
+      <a class="restart-button" onclick="show('instrucciones', 'ventana2', 'sobre')">Sobre 2048</a>
+
+ </span>
+
+<span class='ventana2'  id='ventana2'>
+
 
     <div class="game-container">
       <div class="game-message">
@@ -73,20 +77,23 @@
       </div>
     </div>
 
-    <p class="game-explanation">
-      <strong class="important">Instrucciones:</strong> Us&aacute; las <strong>teclas cursor</strong> para mover las fichas. Cuando dos de ellas con el mismo n&uacute;mero se unen, <strong>duplican su valor!</strong>
-    </>
-    <hr>
-    <p>
+</span>
+
+<div id='instrucciones' class='ocultar' >
+
+      <strong class="important">Instrucciones:</strong> Us&aacute; las <strong>teclas cursor</strong> para mover las fichas. Cuando dos de ellas con el mismo n&uacute;mero se unen, <strong>duplican su valor!</strong></div>
+
+<div id='sobre' class='ocultar' >    
+
     <strong class="important">Nota:</strong> Esta es la versi&oacute;n Huayra de 2048. Solamente se ha traducido la interface. El juego est&aacute; tal cual lo encontr&aacute;s en <a href="http://git.io/2048">http://git.io/2048.</a>
     </p>
-    <hr>
     <p>
     Creado por <a href="http://gabrielecirulli.com" target="_blank">Gabriele Cirulli.</a> Basado en <a href="https://itunes.apple.com/us/app/1024!/id823499224" target="_blank">1024 by Veewo Studio</a> y conceptualmente similar a  <a href="http://asherv.com/threes/" target="_blank">Threes by Asher Vollmer.</a>
     </p>
-    <hr>
-    <p> Huayra GNU Linux es el Sistema Operativo Libre de <br> <a href="http://conectarigualdad.gob.ar"> Conectar Igualdad </a>. Pod&eacute;s aprender m&aacute;s de Huayra visitando su <a href="http://huayra.conectarigualdad.gob.ar"> Sitio Oficial </a>.
+    <p> Huayra GNU Linux es el Sistema Operativo Libre y gratuito desarrollado por ANSES para el Programa <br> <a href="http://conectarigualdad.gob.ar"> Conectar Igualdad </a>.<br/>Pod&eacute;s aprender m&aacute;s de Huayra visitando su <a href="http://huayra.conectarigualdad.gob.ar"> Sitio Oficial </a>.
+    </p>
   </div>
+</div>
 
   <script src="js/bind_polyfill.js"></script>
   <script src="js/classlist_polyfill.js"></script>
@@ -98,5 +105,22 @@
   <script src="js/local_storage_manager.js"></script>
   <script src="js/game_manager.js"></script>
   <script src="js/application.js"></script>
+
+<script type="text/javascript">
+function show(ocu1, ocu2, most) {
+  ocu1 = document.getElementById(ocu1);
+  ocu2 = document.getElementById(ocu2);
+  most = document.getElementById(most);
+  ocu1.style.display = 'none';
+  ocu2.style.display = 'none';
+  most.style.display = 'block';
+  
+  
+
+}
+</script>
+
 </body>
 </html>
+
+
