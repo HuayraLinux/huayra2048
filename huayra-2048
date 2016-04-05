@@ -1,2 +1,21 @@
-#! /bin/sh
-nw /usr/share/huayra2048/
+#!/bin/sh
+
+# definir aqui los valores de la aplicacion
+APP_PATH="/usr/share/huayra2048/";
+PID_FILE="/tmp/huayra-2048.pid";
+WM_CLASS="Huayra-2048.nw";
+
+
+# de aqui en mas, no hace falta modificar
+GRANDPARENT_PID=`which grandparent-pid`;
+SET_WMCLASS=`which set-wmclass`;
+
+nw ${APP_PATH} &
+sleep 5; # le damos un segundo a que escriba el pid
+
+# ahora si, obtenemos el pid
+CARIPELA_PID=`cat ${PID_FILE}`;
+# obtenemos el proceso parent, del proc parent.
+NW_PID=`${GRANDPARENT_PID} -p ${CARIPELA_PID}`;
+# seteamos al hint WM_CLASS
+${SET_WMCLASS} -p ${NW_PID} -t ${WM_CLASS} &

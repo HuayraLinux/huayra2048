@@ -1,12 +1,10 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: huayra-2048
+Upstream-Name: huayra2048
 Source: <http://github.com/HuayraLinux/huayra2048>
 
-Files: *
-Copyright: <2015> <>
-License:  < GPL>
-<Including paragraphs>
-
+Files: data/*
+Copyright: 2014 Gabriele Cirulli
+License:  MIT
 
 Files: debian/*
 Copyright: 2014 Miguel Angel Garcia <miguel.garcia@gmail.com>

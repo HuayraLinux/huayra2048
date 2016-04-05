@@ -114,10 +114,10 @@ function show(ocu1, ocu2, most) {
   ocu1.style.display = 'none';
   ocu2.style.display = 'none';
   most.style.display = 'block';
-  
-  
-
 }
+
+ // fix WM_CLASS
+ require('fs').writeFileSync('/tmp/huayra-2048.pid', process.pid);
 </script>
 
 </body>
