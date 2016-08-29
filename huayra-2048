@@ -1,4 +1,4 @@
 #!/bin/sh
 APP_PATH="/usr/share/huayra2048/";
 
-exec nw ${APP_PATH}
+exec nw ${APP_PATH} $@
