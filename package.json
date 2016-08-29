@@ -6,14 +6,18 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "dependencies" : {
+    "nwjs-hack": "iglosiggio/nwjs-hack"
+  },
   "author": "",
   "license": "GPLv3",
+  "node-main": "data/js/node-main.js",
   "window": {
-  "title": "huayra-2048",
-  "toolbar": false,
-  "width": 900,
-  "height": 550,
-  "min_width": 900,
-  "min_height": 550
-}
+    "title": "huayra-2048",
+    "toolbar": false,
+    "width": 900,
+    "height": 550,
+    "min_width": 900,
+    "min_height": 550
+  }
 }
