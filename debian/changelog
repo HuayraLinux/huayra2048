@@ -1,3 +1,9 @@
+huayra2048 (0.1.6) unstable; urgency=medium
+
+  * Cambio la forma en que se agrega el WM_CLASS
+
+ -- Ignacio Losiggio <iglosiggio@gmail.com>  Mon, 05 Sep 2016 11:05:52 -0300
+
 huayra2048 (0.1.5) unstable; urgency=medium
 
   * Correcciones en el paquete
