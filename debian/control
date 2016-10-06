@@ -12,6 +12,6 @@ Package: huayra2048
 Architecture: all
 Depends: ${shlibs:Depends}, ${misc:Depends}, www-browser,
          node-webkit, huayra-help (>= 0.3)
-Description: El juego 2048.
+Description: ¡Un juego de ingenio y matemática!
  Sumá potencias de 2 en el tablero hasta llegar a 2048.
- Un juego de ingenio y matemática.
+ ¡Evitá que se llene la pantalla de números!
