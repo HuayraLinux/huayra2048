@@ -11,7 +11,7 @@ Vcs-Browser: https://github.com/HuayraLinux/huayra2048
 Package: huayra2048
 Architecture: all
 Depends: ${shlibs:Depends}, ${misc:Depends}, www-browser,
-         node-webkit, huayra-help (>= 0.3)
+         node-webkit
 Description: ¡Un juego de ingenio y matemática!
  Sumá potencias de 2 en el tablero hasta llegar a 2048.
  ¡Evitá que se llene la pantalla de números!

@@ -1,3 +1,9 @@
+huayra2048 (0.1.7+nmu1) unstable; urgency=medium
+
+  * Desactiva keyring
+
+ -- Matias De lellis <mati86dl@gmail.com>  Thu, 01 Jun 2023 11:08:44 -0300
+
 huayra2048 (0.1.7) unstable; urgency=medium
 
   * Mejorada la descripción del paquete
